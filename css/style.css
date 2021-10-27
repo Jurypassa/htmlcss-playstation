@@ -2,20 +2,24 @@
     height: 50px;
 }
 
-.jumbo.container-fluid{
-    background-color: dimgray;
-    height: 400px;
-}
 
-.jumbo .col-12{
-    padding-top: 250px;
+
+.jumbo .col-12,
+.nuove-uscite .col-12{
+    padding-top: 150px;
 }
 
 
 /* debug */
 
+.debug .jumbo.container-fluid,
+.debug .nuove-uscite .container-fluid:first-child{
+    background-color: dimgray;
+    height: 400px;
+}
 .debug .box{
     height: 50px;
     background-color: deepskyblue;
 }
+
 
