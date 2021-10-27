@@ -2,12 +2,27 @@
     height: 50px;
 }
 
-
-
 .jumbo .col-12,
 .nuove-uscite .col-12{
     padding-top: 150px;
 }
+
+.plus{
+    background-color: #bebcbb;
+}
+
+/* versione medium */
+
+/* @media screen and (min-width:768px){
+    .plus{
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-position: right 30px top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+} */
+
 
 
 /* debug */
@@ -21,5 +36,4 @@
     height: 50px;
     background-color: deepskyblue;
 }
-
 
