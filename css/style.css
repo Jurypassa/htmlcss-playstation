@@ -15,9 +15,13 @@
     background-color: #161c3b;
 }
 
+footer .container-fluid{
+    background-color: #00439c;
+}
+
 /* versione medium */
 
-/* @media screen and (min-width:768px){
+@media screen and (min-width:768px){
     .plus{
         background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
         background-position: right 30px top;
@@ -25,7 +29,16 @@
         background-repeat: no-repeat;
     }
 
-} */
+    .top .box:last-child{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .top p{
+        display: inline-block;
+    }
+
+}
 
 
 
