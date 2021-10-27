@@ -1,0 +1,21 @@
+.header-top{
+    height: 50px;
+}
+
+.jumbo.container-fluid{
+    background-color: dimgray;
+    height: 400px;
+}
+
+.jumbo .col-12{
+    padding-top: 250px;
+}
+
+
+/* debug */
+
+.debug .box{
+    height: 50px;
+    background-color: deepskyblue;
+}
+
