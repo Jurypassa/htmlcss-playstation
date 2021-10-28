@@ -1,12 +1,50 @@
+/* common */
+
+.orange{
+    background-color: #cd3d0f;
+    border: #cd3d0f;
+    padding: 5px 10px 8px 10px;
+}
+
+button:hover{
+    border: 1px solid white;
+}
+
+/* header */
+
 .header-top{
     height: 50px;
 }
 
 .header-top img{
-    width: 100px;
+    width: 80px;
 }
 
-.jumbo .col-12,
+/* jumbotron */
+
+.jumbo{
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbo img{
+    width: 50%;
+}
+
+.jumbo-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.jumbo-img img:hover{
+    border: 2px solid #0072ce;
+    padding: 2px;
+}
+
+/* .jumbo .col-12, */
 .nuove-uscite .col-12{
     padding-top: 150px;
 }
@@ -48,7 +86,7 @@ footer .container-fluid{
 
 /* debug */
 
-.debug .jumbo.container-fluid,
+/* .debug .jumbo.container-fluid, */
 .debug .nuove-uscite .container-fluid:first-child{
     background-color: dimgray;
     height: 400px;
