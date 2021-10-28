@@ -19,6 +19,11 @@ button:hover{
     border: 1px solid white;
 }
 
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
 /* header */
 
 .header-top{
@@ -59,28 +64,24 @@ button:hover{
     font-size: 0.75rem;
 }
 
-.play-5 .grande img{
-    object-fit: cover;
-    width: 100%;
-}
 
 .play-5 button{
     width: 200px;
 }
 
-.play-5 .piccole img{
-    object-fit: contain;
-    width: 100%;
+/* nuove uscite */
+
+.nuove-uscite .container-fluid:first-child{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.play-5 .piccole p{
-    visibility: hidden;
+.nuove-uscite .piccole img{
+    width: 50%;
 }
 
-
-.nuove-uscite .col-12{
-    padding-top: 150px;
-}
 
 .plus{
     background-color: #bebcbb;
@@ -107,10 +108,6 @@ footer .container-fluid{
 @media screen and (min-width:768px){
     .play-5 .piccole img{
         width: 80%;
-    }
-
-    .play-5 .piccole p{
-        visibility: visible;
     }
 
     .plus{
@@ -143,10 +140,10 @@ footer .container-fluid{
 
 /* debug */
 
-/* .debug .jumbo.container-fluid, */
+/* .debug .jumbo.container-fluid,
 .debug .nuove-uscite .container-fluid:first-child{
     background-color: dimgray;
-    height: 400px;
+    height: 400px; */
 }
 .debug .box{
     height: 50px;
