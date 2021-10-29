@@ -52,7 +52,7 @@ img{
 /* jumbotron */
 
 .jumbo{
-    height: 500px;
+    height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
