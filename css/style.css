@@ -39,7 +39,7 @@ img{
     color: gray;
 }
 
-/* header */
+/* header top*/
 
 .header-top{
     height: 50px;
@@ -48,6 +48,14 @@ img{
 .header-top img{
     width: 80px;
 }
+
+/* header bottom */
+
+.lente{
+    width: 9%;
+    height: 100%;
+}
+
 
 /* jumbotron */
 
