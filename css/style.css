@@ -1,4 +1,5 @@
 /* common */
+
 .orange,
 .blu,
 .grigio,
@@ -84,7 +85,7 @@ img{
 
 
 .play-5 button{
-    width: 200px;
+    width: 220px;
 }
 
 /* nuove uscite */
@@ -157,6 +158,13 @@ footer .container-fluid{
     }
 }
 
+@media screen and (min-width:1200px){
+    
+    html{
+        font-size: 1.20rem;
+    }
+}
+
 
 
 /* debug */
@@ -166,8 +174,8 @@ footer .container-fluid{
     background-color: dimgray;
     height: 400px;
 } */
-.debug .box{
+/* .debug .box{
     height: 50px;
     background-color: deepskyblue;
-}
+} */
 
